@@ -1,0 +1,166 @@
+html {
+  font-family: georgia, serif;
+  width: 100%;
+  height: 100%;
+  background-color: #636363;
+}
+#app {
+  background-color: #636363;
+}
+#root {
+  background: #636363;
+}
+
+.row {
+  margin: 0 auto;
+  max-width: 1000px;
+  width: 100%;
+  display: flex;
+  right: 0;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.left {
+  display: inline-block;
+  text-align: left;
+}
+
+.right {
+  display: inline-block;
+  text-align: right;
+}
+
+.center {
+  display: inline-block;
+  margin: 0 auto;
+}
+.col-4 {
+  width: 33.33%;
+}
+
+input {
+  margin-left: 5px;
+}
+
+label {
+  font-family: "Arial Black";
+  font-variant: small-caps;
+  font-size: 1.2em;
+  color: #333;
+}
+
+.grid {
+  margin: 0.5em auto;
+  background: linear-gradient(#f7aeb7, #ffcccc, #ffeee6);
+}
+
+table {
+  border-collapse: collapse;
+}
+
+td {
+  min-width: 2em;
+  width: 2em;
+  height: 2em;
+  text-align: center;
+  bottom-padding: 0;
+}
+
+.wall:before {
+  content: "1";
+}
+
+.tunnel:before {
+  content: "0";
+}
+
+.wall {
+  background: #636363;
+  bottom-padding: 0;
+}
+
+.tunnel {
+  background: transparent;
+}
+
+.form-control {
+  width: 60px;
+  text-align: center;
+}
+
+/* Custom, iPhone Retina */
+
+@media only screen and (min-width: 120px) {
+  td {
+    min-width: 2em;
+    width: 2em;
+    height: 2em;
+    font-size: 0.4em;
+  }
+  label {
+    font-size: 1em;
+  }
+}
+
+/* Extra Small Devices, Phones */
+
+@media only screen and (min-width: 480px) {
+  td {
+    min-width: 2em;
+    width: 2em;
+    height: 2em;
+    font-size: 0.6em;
+  }
+  label {
+    font-size: 0.8em;
+  }
+}
+
+@media only screen and (min-width: 555px) {
+  label {
+    font-size: 1em;
+  }
+}
+
+/* Small Devices, Tablets */
+
+@media only screen and (min-width: 768px) {
+  td {
+    min-width: 2em;
+    width: 2em;
+    height: 2em;
+    font-size: 1em;
+  }
+  label {
+    font-size: 1.2em;
+  }
+}
+
+/* Medium Devices, Desktops */
+
+@media only screen and (min-width: 992px) {
+  td {
+    min-width: 2em;
+    width: 2em;
+    height: 2em;
+    font-size: 1em;
+  }
+  label {
+    font-size: 1.2em;
+  }
+}
+
+/* Large Devices, Wide Screens */
+
+@media only screen and (min-width: 1200px) {
+  td {
+    min-width: 2em;
+    width: 2em;
+    height: 2em;
+    font-size: 1em;
+  }
+  label {
+    font-size: 1.2em;
+  }
+}
